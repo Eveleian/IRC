@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+  mysqldb:
+    image: mysql
+    restart: always
+    env_file: ./.env
+    ports:
+      - ${MYSQL_LOCAL_PORT}:${MYSQL_DOCKER_PORT}
+    volumes:
+      - db-data:/var/lib/mysql
+      - ./database:/docker-entrypoint-initdb.d
+
+volumes:
+  db-data:

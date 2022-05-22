@@ -1,0 +1,152 @@
+.Chat {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  html{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    background-color: #282c34 ;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Table{
+    background-color: rgba(128, 215, 255, 0.315);
+    width: 95%;
+    height: 95vh;
+    position: center;
+    margin: 2.5vh;
+    border: 0.1px solid gray;
+    border-radius: 0.5em;
+  }
+
+  .category{
+    height: 99vh;
+    float: left;
+  }
+
+  .chanel{
+    width: 25%;
+    height: 100%;
+    border-right: solid black;
+  }
+
+  .chat{
+    width: 49%;
+    height: 100%;
+    border-right: solid black;
+  }
+
+  .private{
+    width: 25%;
+    height: 75%;
+  }
+
+  .print{
+    width: 100%;
+    height: 70%;
+    background-color: rgba(142, 213, 255, 0.226);
+    border-radius: 5%;
+  }
+
+  .scrollbar{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .scrollbar::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(1, 52, 82, 0.226); 
+    border-radius: 0.4em;
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(1, 52, 82, 0.521); 
+  }
+
+  .chanels{
+    width: 100%;
+    height: 75%;
+    overflow-y: auto;
+  }
+  .chanels::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  .chanels::-webkit-scrollbar-thumb {
+    background: rgba(1, 52, 82, 0.226); 
+    border-radius: 0.4em;
+  }
+  
+  .chanels::-webkit-scrollbar-thumb:hover {
+    background: rgba(1, 52, 82, 0.521); 
+  }
+  
+  .messages{
+    width: 100%;
+    height: 75%;
+    overflow-y: auto;
+  }
+  .messages::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  .messages::-webkit-scrollbar-thumb {
+    background: rgba(1, 52, 82, 0.226); 
+    border-radius: 0.4em;
+  }
+  
+  .messages::-webkit-scrollbar-thumb:hover {
+    background: rgba(1, 52, 82, 0.521); 
+  }
+  .styledChat {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #3276E3;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+  }
+  
+  .styledChat:hover {
+    background-color: #3276E3;
+  }
+  
+  .styledChat:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+  }
+  .logout{
+    float: left;
+    margin:2em;
+  }
+  ::-webkit-scrollbar {
+    width: 0; 
+    background: transparent;
+}
